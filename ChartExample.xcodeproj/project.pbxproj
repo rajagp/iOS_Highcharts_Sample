@@ -1,0 +1,999 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CD8C6FD1E2EAE8D006AFE72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD8C6FC1E2EAE8D006AFE72 /* AppDelegate.swift */; };
+		1CD8C6FF1E2EAE8D006AFE72 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD8C6FE1E2EAE8D006AFE72 /* ChartViewController.swift */; };
+		1CD8C7041E2EAE8D006AFE72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7031E2EAE8D006AFE72 /* Assets.xcassets */; };
+		1CD8C7121E2EAE8E006AFE72 /* ChartExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD8C7111E2EAE8E006AFE72 /* ChartExampleTests.swift */; };
+		1CD8C7941E2EB137006AFE72 /* highcharts-3d.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C71F1E2EB137006AFE72 /* highcharts-3d.js */; };
+		1CD8C7951E2EB137006AFE72 /* highcharts-3d.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7201E2EB137006AFE72 /* highcharts-3d.src.js */; };
+		1CD8C7961E2EB137006AFE72 /* highcharts-more.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7211E2EB137006AFE72 /* highcharts-more.js */; };
+		1CD8C7971E2EB137006AFE72 /* highcharts-more.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7221E2EB137006AFE72 /* highcharts-more.src.js */; };
+		1CD8C7981E2EB137006AFE72 /* highcharts.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7231E2EB137006AFE72 /* highcharts.js */; };
+		1CD8C7991E2EB137006AFE72 /* highcharts.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7241E2EB137006AFE72 /* highcharts.src.js */; };
+		1CD8C79A1E2EB137006AFE72 /* highcharts-3d.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7261E2EB137006AFE72 /* highcharts-3d.js */; };
+		1CD8C79B1E2EB137006AFE72 /* highcharts-3d.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7271E2EB137006AFE72 /* highcharts-3d.src.js */; };
+		1CD8C79C1E2EB137006AFE72 /* highcharts-more.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7281E2EB137006AFE72 /* highcharts-more.js */; };
+		1CD8C79D1E2EB137006AFE72 /* highcharts-more.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7291E2EB137006AFE72 /* highcharts-more.src.js */; };
+		1CD8C79E1E2EB137006AFE72 /* highcharts.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C72A1E2EB137006AFE72 /* highcharts.js */; };
+		1CD8C79F1E2EB137006AFE72 /* highcharts.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C72B1E2EB137006AFE72 /* highcharts.src.js */; };
+		1CD8C7A01E2EB137006AFE72 /* accessibility.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C72D1E2EB137006AFE72 /* accessibility.js */; };
+		1CD8C7A11E2EB137006AFE72 /* accessibility.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C72E1E2EB137006AFE72 /* accessibility.src.js */; };
+		1CD8C7A21E2EB137006AFE72 /* annotations.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C72F1E2EB137006AFE72 /* annotations.js */; };
+		1CD8C7A31E2EB137006AFE72 /* annotations.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7301E2EB137006AFE72 /* annotations.src.js */; };
+		1CD8C7A41E2EB137006AFE72 /* boost.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7311E2EB137006AFE72 /* boost.js */; };
+		1CD8C7A51E2EB137006AFE72 /* boost.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7321E2EB137006AFE72 /* boost.src.js */; };
+		1CD8C7A61E2EB137006AFE72 /* broken-axis.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7331E2EB137006AFE72 /* broken-axis.js */; };
+		1CD8C7A71E2EB137006AFE72 /* broken-axis.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7341E2EB137006AFE72 /* broken-axis.src.js */; };
+		1CD8C7A81E2EB137006AFE72 /* data.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7351E2EB137006AFE72 /* data.js */; };
+		1CD8C7A91E2EB137006AFE72 /* data.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7361E2EB137006AFE72 /* data.src.js */; };
+		1CD8C7AA1E2EB137006AFE72 /* drilldown.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7371E2EB137006AFE72 /* drilldown.js */; };
+		1CD8C7AB1E2EB137006AFE72 /* drilldown.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7381E2EB137006AFE72 /* drilldown.src.js */; };
+		1CD8C7AC1E2EB137006AFE72 /* exporting.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7391E2EB137006AFE72 /* exporting.js */; };
+		1CD8C7AD1E2EB137006AFE72 /* exporting.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C73A1E2EB137006AFE72 /* exporting.src.js */; };
+		1CD8C7AE1E2EB137006AFE72 /* funnel.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C73B1E2EB137006AFE72 /* funnel.js */; };
+		1CD8C7AF1E2EB137006AFE72 /* funnel.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C73C1E2EB137006AFE72 /* funnel.src.js */; };
+		1CD8C7B01E2EB137006AFE72 /* gantt.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C73D1E2EB137006AFE72 /* gantt.js */; };
+		1CD8C7B11E2EB137006AFE72 /* gantt.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C73E1E2EB137006AFE72 /* gantt.src.js */; };
+		1CD8C7B21E2EB137006AFE72 /* grid-axis.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C73F1E2EB137006AFE72 /* grid-axis.js */; };
+		1CD8C7B31E2EB137006AFE72 /* grid-axis.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7401E2EB137006AFE72 /* grid-axis.src.js */; };
+		1CD8C7B41E2EB137006AFE72 /* heatmap.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7411E2EB137006AFE72 /* heatmap.js */; };
+		1CD8C7B51E2EB137006AFE72 /* heatmap.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7421E2EB137006AFE72 /* heatmap.src.js */; };
+		1CD8C7B61E2EB137006AFE72 /* no-data-to-display.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7431E2EB137006AFE72 /* no-data-to-display.js */; };
+		1CD8C7B71E2EB137006AFE72 /* no-data-to-display.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7441E2EB137006AFE72 /* no-data-to-display.src.js */; };
+		1CD8C7B81E2EB137006AFE72 /* offline-exporting.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7451E2EB137006AFE72 /* offline-exporting.js */; };
+		1CD8C7B91E2EB137006AFE72 /* offline-exporting.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7461E2EB137006AFE72 /* offline-exporting.src.js */; };
+		1CD8C7BA1E2EB137006AFE72 /* overlapping-datalabels.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7471E2EB137006AFE72 /* overlapping-datalabels.js */; };
+		1CD8C7BB1E2EB137006AFE72 /* overlapping-datalabels.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7481E2EB137006AFE72 /* overlapping-datalabels.src.js */; };
+		1CD8C7BC1E2EB137006AFE72 /* series-label.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7491E2EB137006AFE72 /* series-label.js */; };
+		1CD8C7BD1E2EB137006AFE72 /* series-label.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C74A1E2EB137006AFE72 /* series-label.src.js */; };
+		1CD8C7BE1E2EB137006AFE72 /* solid-gauge.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C74B1E2EB137006AFE72 /* solid-gauge.js */; };
+		1CD8C7BF1E2EB137006AFE72 /* solid-gauge.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C74C1E2EB137006AFE72 /* solid-gauge.src.js */; };
+		1CD8C7C01E2EB137006AFE72 /* stock.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C74D1E2EB137006AFE72 /* stock.js */; };
+		1CD8C7C11E2EB137006AFE72 /* stock.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C74E1E2EB137006AFE72 /* stock.src.js */; };
+		1CD8C7C21E2EB137006AFE72 /* treemap.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C74F1E2EB137006AFE72 /* treemap.js */; };
+		1CD8C7C31E2EB137006AFE72 /* treemap.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7501E2EB137006AFE72 /* treemap.src.js */; };
+		1CD8C7C41E2EB137006AFE72 /* xrange-series.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7511E2EB137006AFE72 /* xrange-series.js */; };
+		1CD8C7C51E2EB137006AFE72 /* xrange-series.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7521E2EB137006AFE72 /* xrange-series.src.js */; };
+		1CD8C7C61E2EB137006AFE72 /* dark-blue.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7541E2EB137006AFE72 /* dark-blue.js */; };
+		1CD8C7C71E2EB137006AFE72 /* dark-green.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7551E2EB137006AFE72 /* dark-green.js */; };
+		1CD8C7C81E2EB137006AFE72 /* dark-unica.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7561E2EB137006AFE72 /* dark-unica.js */; };
+		1CD8C7C91E2EB137006AFE72 /* gray.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7571E2EB137006AFE72 /* gray.js */; };
+		1CD8C7CA1E2EB137006AFE72 /* grid-light.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7581E2EB137006AFE72 /* grid-light.js */; };
+		1CD8C7CB1E2EB137006AFE72 /* grid.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7591E2EB137006AFE72 /* grid.js */; };
+		1CD8C7CC1E2EB137006AFE72 /* sand-signika.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C75A1E2EB137006AFE72 /* sand-signika.js */; };
+		1CD8C7CD1E2EB137006AFE72 /* skies.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C75B1E2EB137006AFE72 /* skies.js */; };
+		1CD8C7CE1E2EB137006AFE72 /* canvg.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C75D1E2EB137006AFE72 /* canvg.js */; };
+		1CD8C7CF1E2EB137006AFE72 /* canvg.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C75E1E2EB137006AFE72 /* canvg.src.js */; };
+		1CD8C7D01E2EB137006AFE72 /* jspdf.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C75F1E2EB137006AFE72 /* jspdf.js */; };
+		1CD8C7D11E2EB137006AFE72 /* jspdf.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7601E2EB137006AFE72 /* jspdf.src.js */; };
+		1CD8C7D21E2EB137006AFE72 /* svg2pdf.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7611E2EB137006AFE72 /* svg2pdf.js */; };
+		1CD8C7D31E2EB137006AFE72 /* svg2pdf.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7621E2EB137006AFE72 /* svg2pdf.src.js */; };
+		1CD8C7D41E2EB137006AFE72 /* accessibility.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7641E2EB137006AFE72 /* accessibility.js */; };
+		1CD8C7D51E2EB137006AFE72 /* accessibility.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7651E2EB137006AFE72 /* accessibility.src.js */; };
+		1CD8C7D61E2EB137006AFE72 /* annotations.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7661E2EB137006AFE72 /* annotations.js */; };
+		1CD8C7D71E2EB137006AFE72 /* annotations.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7671E2EB137006AFE72 /* annotations.src.js */; };
+		1CD8C7D81E2EB137006AFE72 /* boost.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7681E2EB137006AFE72 /* boost.js */; };
+		1CD8C7D91E2EB137006AFE72 /* boost.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7691E2EB137006AFE72 /* boost.src.js */; };
+		1CD8C7DA1E2EB137006AFE72 /* broken-axis.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C76A1E2EB137006AFE72 /* broken-axis.js */; };
+		1CD8C7DB1E2EB137006AFE72 /* broken-axis.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C76B1E2EB137006AFE72 /* broken-axis.src.js */; };
+		1CD8C7DC1E2EB137006AFE72 /* data.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C76C1E2EB137006AFE72 /* data.js */; };
+		1CD8C7DD1E2EB137006AFE72 /* data.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C76D1E2EB137006AFE72 /* data.src.js */; };
+		1CD8C7DE1E2EB137006AFE72 /* drilldown.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C76E1E2EB137006AFE72 /* drilldown.js */; };
+		1CD8C7DF1E2EB137006AFE72 /* drilldown.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C76F1E2EB137006AFE72 /* drilldown.src.js */; };
+		1CD8C7E01E2EB137006AFE72 /* exporting.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7701E2EB137006AFE72 /* exporting.js */; };
+		1CD8C7E11E2EB137006AFE72 /* exporting.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7711E2EB137006AFE72 /* exporting.src.js */; };
+		1CD8C7E21E2EB137006AFE72 /* funnel.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7721E2EB137006AFE72 /* funnel.js */; };
+		1CD8C7E31E2EB137006AFE72 /* funnel.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7731E2EB137006AFE72 /* funnel.src.js */; };
+		1CD8C7E41E2EB137006AFE72 /* gantt.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7741E2EB137006AFE72 /* gantt.js */; };
+		1CD8C7E51E2EB137006AFE72 /* gantt.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7751E2EB137006AFE72 /* gantt.src.js */; };
+		1CD8C7E61E2EB137006AFE72 /* grid-axis.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7761E2EB137006AFE72 /* grid-axis.js */; };
+		1CD8C7E71E2EB137006AFE72 /* grid-axis.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7771E2EB137006AFE72 /* grid-axis.src.js */; };
+		1CD8C7E81E2EB137006AFE72 /* heatmap.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7781E2EB137006AFE72 /* heatmap.js */; };
+		1CD8C7E91E2EB137006AFE72 /* heatmap.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7791E2EB137006AFE72 /* heatmap.src.js */; };
+		1CD8C7EA1E2EB137006AFE72 /* no-data-to-display.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C77A1E2EB137006AFE72 /* no-data-to-display.js */; };
+		1CD8C7EB1E2EB137006AFE72 /* no-data-to-display.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C77B1E2EB137006AFE72 /* no-data-to-display.src.js */; };
+		1CD8C7EC1E2EB137006AFE72 /* offline-exporting.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C77C1E2EB137006AFE72 /* offline-exporting.js */; };
+		1CD8C7ED1E2EB137006AFE72 /* offline-exporting.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C77D1E2EB137006AFE72 /* offline-exporting.src.js */; };
+		1CD8C7EE1E2EB137006AFE72 /* overlapping-datalabels.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C77E1E2EB137006AFE72 /* overlapping-datalabels.js */; };
+		1CD8C7EF1E2EB137006AFE72 /* overlapping-datalabels.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C77F1E2EB137006AFE72 /* overlapping-datalabels.src.js */; };
+		1CD8C7F01E2EB137006AFE72 /* series-label.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7801E2EB137006AFE72 /* series-label.js */; };
+		1CD8C7F11E2EB137006AFE72 /* series-label.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7811E2EB137006AFE72 /* series-label.src.js */; };
+		1CD8C7F21E2EB137006AFE72 /* solid-gauge.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7821E2EB137006AFE72 /* solid-gauge.js */; };
+		1CD8C7F31E2EB137006AFE72 /* solid-gauge.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7831E2EB137006AFE72 /* solid-gauge.src.js */; };
+		1CD8C7F41E2EB137006AFE72 /* stock.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7841E2EB137006AFE72 /* stock.js */; };
+		1CD8C7F51E2EB137006AFE72 /* stock.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7851E2EB137006AFE72 /* stock.src.js */; };
+		1CD8C7F61E2EB137006AFE72 /* treemap.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7861E2EB137006AFE72 /* treemap.js */; };
+		1CD8C7F71E2EB137006AFE72 /* treemap.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7871E2EB137006AFE72 /* treemap.src.js */; };
+		1CD8C7F81E2EB137006AFE72 /* xrange-series.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7881E2EB137006AFE72 /* xrange-series.js */; };
+		1CD8C7F91E2EB137006AFE72 /* xrange-series.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7891E2EB137006AFE72 /* xrange-series.src.js */; };
+		1CD8C7FA1E2EB137006AFE72 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C78A1E2EB137006AFE72 /* readme.txt */; };
+		1CD8C7FB1E2EB137006AFE72 /* dark-blue.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C78C1E2EB137006AFE72 /* dark-blue.js */; };
+		1CD8C7FC1E2EB137006AFE72 /* dark-green.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C78D1E2EB137006AFE72 /* dark-green.js */; };
+		1CD8C7FD1E2EB137006AFE72 /* dark-unica.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C78E1E2EB137006AFE72 /* dark-unica.js */; };
+		1CD8C7FE1E2EB137006AFE72 /* gray.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C78F1E2EB137006AFE72 /* gray.js */; };
+		1CD8C7FF1E2EB137006AFE72 /* grid-light.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7901E2EB137006AFE72 /* grid-light.js */; };
+		1CD8C8001E2EB137006AFE72 /* grid.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7911E2EB137006AFE72 /* grid.js */; };
+		1CD8C8011E2EB137006AFE72 /* sand-signika.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7921E2EB137006AFE72 /* sand-signika.js */; };
+		1CD8C8021E2EB137006AFE72 /* skies.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C7931E2EB137006AFE72 /* skies.js */; };
+		1CD8C8041E2EB156006AFE72 /* jquery-1.11.3.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C8031E2EB156006AFE72 /* jquery-1.11.3.min.js */; };
+		1CD8C80C1E2EB3C4006AFE72 /* ChartRenderer.js in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C80B1E2EB3C4006AFE72 /* ChartRenderer.js */; };
+		1CD8C80E1E2EC0C1006AFE72 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C80D1E2EC0C1006AFE72 /* index.html */; };
+		1CD8C8161E2ECDD1006AFE72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C8121E2ECDD1006AFE72 /* LaunchScreen.storyboard */; };
+		1CD8C8171E2ECDD1006AFE72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8C8141E2ECDD1006AFE72 /* Main.storyboard */; };
+		1CD8C8241E36D9EB006AFE72 /* ChartSampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD8C8231E36D9EB006AFE72 /* ChartSampleData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CD8C70E1E2EAE8E006AFE72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CD8C6F11E2EAE8D006AFE72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CD8C6F81E2EAE8D006AFE72;
+			remoteInfo = ChartExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CD8C6F91E2EAE8D006AFE72 /* ChartExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CD8C6FC1E2EAE8D006AFE72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CD8C6FE1E2EAE8D006AFE72 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		1CD8C7031E2EAE8D006AFE72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CD8C7081E2EAE8D006AFE72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CD8C70D1E2EAE8E006AFE72 /* ChartExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CD8C7111E2EAE8E006AFE72 /* ChartExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartExampleTests.swift; sourceTree = "<group>"; };
+		1CD8C7131E2EAE8E006AFE72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CD8C71F1E2EB137006AFE72 /* highcharts-3d.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "highcharts-3d.js"; sourceTree = "<group>"; };
+		1CD8C7201E2EB137006AFE72 /* highcharts-3d.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "highcharts-3d.src.js"; sourceTree = "<group>"; };
+		1CD8C7211E2EB137006AFE72 /* highcharts-more.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "highcharts-more.js"; sourceTree = "<group>"; };
+		1CD8C7221E2EB137006AFE72 /* highcharts-more.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "highcharts-more.src.js"; sourceTree = "<group>"; };
+		1CD8C7231E2EB137006AFE72 /* highcharts.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = highcharts.js; sourceTree = "<group>"; };
+		1CD8C7241E2EB137006AFE72 /* highcharts.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = highcharts.src.js; sourceTree = "<group>"; };
+		1CD8C7261E2EB137006AFE72 /* highcharts-3d.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "highcharts-3d.js"; sourceTree = "<group>"; };
+		1CD8C7271E2EB137006AFE72 /* highcharts-3d.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "highcharts-3d.src.js"; sourceTree = "<group>"; };
+		1CD8C7281E2EB137006AFE72 /* highcharts-more.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "highcharts-more.js"; sourceTree = "<group>"; };
+		1CD8C7291E2EB137006AFE72 /* highcharts-more.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "highcharts-more.src.js"; sourceTree = "<group>"; };
+		1CD8C72A1E2EB137006AFE72 /* highcharts.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = highcharts.js; sourceTree = "<group>"; };
+		1CD8C72B1E2EB137006AFE72 /* highcharts.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = highcharts.src.js; sourceTree = "<group>"; };
+		1CD8C72D1E2EB137006AFE72 /* accessibility.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = accessibility.js; sourceTree = "<group>"; };
+		1CD8C72E1E2EB137006AFE72 /* accessibility.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = accessibility.src.js; sourceTree = "<group>"; };
+		1CD8C72F1E2EB137006AFE72 /* annotations.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = annotations.js; sourceTree = "<group>"; };
+		1CD8C7301E2EB137006AFE72 /* annotations.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = annotations.src.js; sourceTree = "<group>"; };
+		1CD8C7311E2EB137006AFE72 /* boost.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = boost.js; sourceTree = "<group>"; };
+		1CD8C7321E2EB137006AFE72 /* boost.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = boost.src.js; sourceTree = "<group>"; };
+		1CD8C7331E2EB137006AFE72 /* broken-axis.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "broken-axis.js"; sourceTree = "<group>"; };
+		1CD8C7341E2EB137006AFE72 /* broken-axis.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "broken-axis.src.js"; sourceTree = "<group>"; };
+		1CD8C7351E2EB137006AFE72 /* data.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = data.js; sourceTree = "<group>"; };
+		1CD8C7361E2EB137006AFE72 /* data.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = data.src.js; sourceTree = "<group>"; };
+		1CD8C7371E2EB137006AFE72 /* drilldown.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = drilldown.js; sourceTree = "<group>"; };
+		1CD8C7381E2EB137006AFE72 /* drilldown.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = drilldown.src.js; sourceTree = "<group>"; };
+		1CD8C7391E2EB137006AFE72 /* exporting.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = exporting.js; sourceTree = "<group>"; };
+		1CD8C73A1E2EB137006AFE72 /* exporting.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = exporting.src.js; sourceTree = "<group>"; };
+		1CD8C73B1E2EB137006AFE72 /* funnel.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = funnel.js; sourceTree = "<group>"; };
+		1CD8C73C1E2EB137006AFE72 /* funnel.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = funnel.src.js; sourceTree = "<group>"; };
+		1CD8C73D1E2EB137006AFE72 /* gantt.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gantt.js; sourceTree = "<group>"; };
+		1CD8C73E1E2EB137006AFE72 /* gantt.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gantt.src.js; sourceTree = "<group>"; };
+		1CD8C73F1E2EB137006AFE72 /* grid-axis.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "grid-axis.js"; sourceTree = "<group>"; };
+		1CD8C7401E2EB137006AFE72 /* grid-axis.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "grid-axis.src.js"; sourceTree = "<group>"; };
+		1CD8C7411E2EB137006AFE72 /* heatmap.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = heatmap.js; sourceTree = "<group>"; };
+		1CD8C7421E2EB137006AFE72 /* heatmap.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = heatmap.src.js; sourceTree = "<group>"; };
+		1CD8C7431E2EB137006AFE72 /* no-data-to-display.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "no-data-to-display.js"; sourceTree = "<group>"; };
+		1CD8C7441E2EB137006AFE72 /* no-data-to-display.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "no-data-to-display.src.js"; sourceTree = "<group>"; };
+		1CD8C7451E2EB137006AFE72 /* offline-exporting.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "offline-exporting.js"; sourceTree = "<group>"; };
+		1CD8C7461E2EB137006AFE72 /* offline-exporting.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "offline-exporting.src.js"; sourceTree = "<group>"; };
+		1CD8C7471E2EB137006AFE72 /* overlapping-datalabels.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "overlapping-datalabels.js"; sourceTree = "<group>"; };
+		1CD8C7481E2EB137006AFE72 /* overlapping-datalabels.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "overlapping-datalabels.src.js"; sourceTree = "<group>"; };
+		1CD8C7491E2EB137006AFE72 /* series-label.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "series-label.js"; sourceTree = "<group>"; };
+		1CD8C74A1E2EB137006AFE72 /* series-label.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "series-label.src.js"; sourceTree = "<group>"; };
+		1CD8C74B1E2EB137006AFE72 /* solid-gauge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "solid-gauge.js"; sourceTree = "<group>"; };
+		1CD8C74C1E2EB137006AFE72 /* solid-gauge.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "solid-gauge.src.js"; sourceTree = "<group>"; };
+		1CD8C74D1E2EB137006AFE72 /* stock.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = stock.js; sourceTree = "<group>"; };
+		1CD8C74E1E2EB137006AFE72 /* stock.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = stock.src.js; sourceTree = "<group>"; };
+		1CD8C74F1E2EB137006AFE72 /* treemap.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = treemap.js; sourceTree = "<group>"; };
+		1CD8C7501E2EB137006AFE72 /* treemap.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = treemap.src.js; sourceTree = "<group>"; };
+		1CD8C7511E2EB137006AFE72 /* xrange-series.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "xrange-series.js"; sourceTree = "<group>"; };
+		1CD8C7521E2EB137006AFE72 /* xrange-series.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "xrange-series.src.js"; sourceTree = "<group>"; };
+		1CD8C7541E2EB137006AFE72 /* dark-blue.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "dark-blue.js"; sourceTree = "<group>"; };
+		1CD8C7551E2EB137006AFE72 /* dark-green.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "dark-green.js"; sourceTree = "<group>"; };
+		1CD8C7561E2EB137006AFE72 /* dark-unica.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "dark-unica.js"; sourceTree = "<group>"; };
+		1CD8C7571E2EB137006AFE72 /* gray.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gray.js; sourceTree = "<group>"; };
+		1CD8C7581E2EB137006AFE72 /* grid-light.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "grid-light.js"; sourceTree = "<group>"; };
+		1CD8C7591E2EB137006AFE72 /* grid.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = grid.js; sourceTree = "<group>"; };
+		1CD8C75A1E2EB137006AFE72 /* sand-signika.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "sand-signika.js"; sourceTree = "<group>"; };
+		1CD8C75B1E2EB137006AFE72 /* skies.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = skies.js; sourceTree = "<group>"; };
+		1CD8C75D1E2EB137006AFE72 /* canvg.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = canvg.js; sourceTree = "<group>"; };
+		1CD8C75E1E2EB137006AFE72 /* canvg.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = canvg.src.js; sourceTree = "<group>"; };
+		1CD8C75F1E2EB137006AFE72 /* jspdf.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jspdf.js; sourceTree = "<group>"; };
+		1CD8C7601E2EB137006AFE72 /* jspdf.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jspdf.src.js; sourceTree = "<group>"; };
+		1CD8C7611E2EB137006AFE72 /* svg2pdf.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = svg2pdf.js; sourceTree = "<group>"; };
+		1CD8C7621E2EB137006AFE72 /* svg2pdf.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = svg2pdf.src.js; sourceTree = "<group>"; };
+		1CD8C7641E2EB137006AFE72 /* accessibility.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = accessibility.js; sourceTree = "<group>"; };
+		1CD8C7651E2EB137006AFE72 /* accessibility.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = accessibility.src.js; sourceTree = "<group>"; };
+		1CD8C7661E2EB137006AFE72 /* annotations.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = annotations.js; sourceTree = "<group>"; };
+		1CD8C7671E2EB137006AFE72 /* annotations.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = annotations.src.js; sourceTree = "<group>"; };
+		1CD8C7681E2EB137006AFE72 /* boost.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = boost.js; sourceTree = "<group>"; };
+		1CD8C7691E2EB137006AFE72 /* boost.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = boost.src.js; sourceTree = "<group>"; };
+		1CD8C76A1E2EB137006AFE72 /* broken-axis.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "broken-axis.js"; sourceTree = "<group>"; };
+		1CD8C76B1E2EB137006AFE72 /* broken-axis.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "broken-axis.src.js"; sourceTree = "<group>"; };
+		1CD8C76C1E2EB137006AFE72 /* data.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = data.js; sourceTree = "<group>"; };
+		1CD8C76D1E2EB137006AFE72 /* data.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = data.src.js; sourceTree = "<group>"; };
+		1CD8C76E1E2EB137006AFE72 /* drilldown.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = drilldown.js; sourceTree = "<group>"; };
+		1CD8C76F1E2EB137006AFE72 /* drilldown.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = drilldown.src.js; sourceTree = "<group>"; };
+		1CD8C7701E2EB137006AFE72 /* exporting.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = exporting.js; sourceTree = "<group>"; };
+		1CD8C7711E2EB137006AFE72 /* exporting.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = exporting.src.js; sourceTree = "<group>"; };
+		1CD8C7721E2EB137006AFE72 /* funnel.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = funnel.js; sourceTree = "<group>"; };
+		1CD8C7731E2EB137006AFE72 /* funnel.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = funnel.src.js; sourceTree = "<group>"; };
+		1CD8C7741E2EB137006AFE72 /* gantt.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gantt.js; sourceTree = "<group>"; };
+		1CD8C7751E2EB137006AFE72 /* gantt.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gantt.src.js; sourceTree = "<group>"; };
+		1CD8C7761E2EB137006AFE72 /* grid-axis.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "grid-axis.js"; sourceTree = "<group>"; };
+		1CD8C7771E2EB137006AFE72 /* grid-axis.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "grid-axis.src.js"; sourceTree = "<group>"; };
+		1CD8C7781E2EB137006AFE72 /* heatmap.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = heatmap.js; sourceTree = "<group>"; };
+		1CD8C7791E2EB137006AFE72 /* heatmap.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = heatmap.src.js; sourceTree = "<group>"; };
+		1CD8C77A1E2EB137006AFE72 /* no-data-to-display.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "no-data-to-display.js"; sourceTree = "<group>"; };
+		1CD8C77B1E2EB137006AFE72 /* no-data-to-display.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "no-data-to-display.src.js"; sourceTree = "<group>"; };
+		1CD8C77C1E2EB137006AFE72 /* offline-exporting.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "offline-exporting.js"; sourceTree = "<group>"; };
+		1CD8C77D1E2EB137006AFE72 /* offline-exporting.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "offline-exporting.src.js"; sourceTree = "<group>"; };
+		1CD8C77E1E2EB137006AFE72 /* overlapping-datalabels.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "overlapping-datalabels.js"; sourceTree = "<group>"; };
+		1CD8C77F1E2EB137006AFE72 /* overlapping-datalabels.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "overlapping-datalabels.src.js"; sourceTree = "<group>"; };
+		1CD8C7801E2EB137006AFE72 /* series-label.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "series-label.js"; sourceTree = "<group>"; };
+		1CD8C7811E2EB137006AFE72 /* series-label.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "series-label.src.js"; sourceTree = "<group>"; };
+		1CD8C7821E2EB137006AFE72 /* solid-gauge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "solid-gauge.js"; sourceTree = "<group>"; };
+		1CD8C7831E2EB137006AFE72 /* solid-gauge.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "solid-gauge.src.js"; sourceTree = "<group>"; };
+		1CD8C7841E2EB137006AFE72 /* stock.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = stock.js; sourceTree = "<group>"; };
+		1CD8C7851E2EB137006AFE72 /* stock.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = stock.src.js; sourceTree = "<group>"; };
+		1CD8C7861E2EB137006AFE72 /* treemap.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = treemap.js; sourceTree = "<group>"; };
+		1CD8C7871E2EB137006AFE72 /* treemap.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = treemap.src.js; sourceTree = "<group>"; };
+		1CD8C7881E2EB137006AFE72 /* xrange-series.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "xrange-series.js"; sourceTree = "<group>"; };
+		1CD8C7891E2EB137006AFE72 /* xrange-series.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "xrange-series.src.js"; sourceTree = "<group>"; };
+		1CD8C78A1E2EB137006AFE72 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		1CD8C78C1E2EB137006AFE72 /* dark-blue.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "dark-blue.js"; sourceTree = "<group>"; };
+		1CD8C78D1E2EB137006AFE72 /* dark-green.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "dark-green.js"; sourceTree = "<group>"; };
+		1CD8C78E1E2EB137006AFE72 /* dark-unica.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "dark-unica.js"; sourceTree = "<group>"; };
+		1CD8C78F1E2EB137006AFE72 /* gray.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gray.js; sourceTree = "<group>"; };
+		1CD8C7901E2EB137006AFE72 /* grid-light.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "grid-light.js"; sourceTree = "<group>"; };
+		1CD8C7911E2EB137006AFE72 /* grid.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = grid.js; sourceTree = "<group>"; };
+		1CD8C7921E2EB137006AFE72 /* sand-signika.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "sand-signika.js"; sourceTree = "<group>"; };
+		1CD8C7931E2EB137006AFE72 /* skies.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = skies.js; sourceTree = "<group>"; };
+		1CD8C8031E2EB156006AFE72 /* jquery-1.11.3.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-1.11.3.min.js"; sourceTree = "<group>"; };
+		1CD8C80B1E2EB3C4006AFE72 /* ChartRenderer.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ChartRenderer.js; sourceTree = "<group>"; };
+		1CD8C80D1E2EC0C1006AFE72 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		1CD8C8131E2ECDD1006AFE72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CD8C8151E2ECDD1006AFE72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		1CD8C8231E36D9EB006AFE72 /* ChartSampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartSampleData.swift; path = ../ChartSampleData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CD8C6F61E2EAE8D006AFE72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CD8C70A1E2EAE8E006AFE72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CD8C6F01E2EAE8D006AFE72 = {
+			isa = PBXGroup;
+			children = (
+				1CD8C71C1E2EB085006AFE72 /* HighCharts */,
+				1CD8C6FB1E2EAE8D006AFE72 /* ChartExample */,
+				1CD8C7101E2EAE8E006AFE72 /* ChartExampleTests */,
+				1CD8C6FA1E2EAE8D006AFE72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CD8C6FA1E2EAE8D006AFE72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CD8C6F91E2EAE8D006AFE72 /* ChartExample.app */,
+				1CD8C70D1E2EAE8E006AFE72 /* ChartExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CD8C6FB1E2EAE8D006AFE72 /* ChartExample */ = {
+			isa = PBXGroup;
+			children = (
+				1CD8C8081E2EB36C006AFE72 /* js */,
+				1CD8C6FC1E2EAE8D006AFE72 /* AppDelegate.swift */,
+				1CD8C8071E2EB291006AFE72 /* viewcontrollers */,
+				1CD8C8061E2EB287006AFE72 /* supporting */,
+			);
+			path = ChartExample;
+			sourceTree = "<group>";
+		};
+		1CD8C7101E2EAE8E006AFE72 /* ChartExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CD8C7111E2EAE8E006AFE72 /* ChartExampleTests.swift */,
+				1CD8C7131E2EAE8E006AFE72 /* Info.plist */,
+			);
+			path = ChartExampleTests;
+			sourceTree = "<group>";
+		};
+		1CD8C71C1E2EB085006AFE72 /* HighCharts */ = {
+			isa = PBXGroup;
+			children = (
+				1CD8C71E1E2EB114006AFE72 /* code */,
+				1CD8C71D1E2EB0A8006AFE72 /* jquery */,
+			);
+			path = HighCharts;
+			sourceTree = "<group>";
+		};
+		1CD8C71D1E2EB0A8006AFE72 /* jquery */ = {
+			isa = PBXGroup;
+			children = (
+				1CD8C8031E2EB156006AFE72 /* jquery-1.11.3.min.js */,
+			);
+			path = jquery;
+			sourceTree = "<group>";
+		};
+		1CD8C71E1E2EB114006AFE72 /* code */ = {
+			isa = PBXGroup;
+			children = (
+				1CD8C71F1E2EB137006AFE72 /* highcharts-3d.js */,
+				1CD8C7201E2EB137006AFE72 /* highcharts-3d.src.js */,
+				1CD8C7211E2EB137006AFE72 /* highcharts-more.js */,
+				1CD8C7221E2EB137006AFE72 /* highcharts-more.src.js */,
+				1CD8C7231E2EB137006AFE72 /* highcharts.js */,
+				1CD8C7241E2EB137006AFE72 /* highcharts.src.js */,
+				1CD8C7251E2EB137006AFE72 /* js */,
+				1CD8C75C1E2EB137006AFE72 /* lib */,
+				1CD8C7631E2EB137006AFE72 /* modules */,
+				1CD8C78A1E2EB137006AFE72 /* readme.txt */,
+				1CD8C78B1E2EB137006AFE72 /* themes */,
+			);
+			name = code;
+			sourceTree = "<group>";
+		};
+		1CD8C7251E2EB137006AFE72 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				1CD8C7261E2EB137006AFE72 /* highcharts-3d.js */,
+				1CD8C7271E2EB137006AFE72 /* highcharts-3d.src.js */,
+				1CD8C7281E2EB137006AFE72 /* highcharts-more.js */,
+				1CD8C7291E2EB137006AFE72 /* highcharts-more.src.js */,
+				1CD8C72A1E2EB137006AFE72 /* highcharts.js */,
+				1CD8C72B1E2EB137006AFE72 /* highcharts.src.js */,
+				1CD8C72C1E2EB137006AFE72 /* modules */,
+				1CD8C7531E2EB137006AFE72 /* themes */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		1CD8C72C1E2EB137006AFE72 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				1CD8C72D1E2EB137006AFE72 /* accessibility.js */,
+				1CD8C72E1E2EB137006AFE72 /* accessibility.src.js */,
+				1CD8C72F1E2EB137006AFE72 /* annotations.js */,
+				1CD8C7301E2EB137006AFE72 /* annotations.src.js */,
+				1CD8C7311E2EB137006AFE72 /* boost.js */,
+				1CD8C7321E2EB137006AFE72 /* boost.src.js */,
+				1CD8C7331E2EB137006AFE72 /* broken-axis.js */,
+				1CD8C7341E2EB137006AFE72 /* broken-axis.src.js */,
+				1CD8C7351E2EB137006AFE72 /* data.js */,
+				1CD8C7361E2EB137006AFE72 /* data.src.js */,
+				1CD8C7371E2EB137006AFE72 /* drilldown.js */,
+				1CD8C7381E2EB137006AFE72 /* drilldown.src.js */,
+				1CD8C7391E2EB137006AFE72 /* exporting.js */,
+				1CD8C73A1E2EB137006AFE72 /* exporting.src.js */,
+				1CD8C73B1E2EB137006AFE72 /* funnel.js */,
+				1CD8C73C1E2EB137006AFE72 /* funnel.src.js */,
+				1CD8C73D1E2EB137006AFE72 /* gantt.js */,
+				1CD8C73E1E2EB137006AFE72 /* gantt.src.js */,
+				1CD8C73F1E2EB137006AFE72 /* grid-axis.js */,
+				1CD8C7401E2EB137006AFE72 /* grid-axis.src.js */,
+				1CD8C7411E2EB137006AFE72 /* heatmap.js */,
+				1CD8C7421E2EB137006AFE72 /* heatmap.src.js */,
+				1CD8C7431E2EB137006AFE72 /* no-data-to-display.js */,
+				1CD8C7441E2EB137006AFE72 /* no-data-to-display.src.js */,
+				1CD8C7451E2EB137006AFE72 /* offline-exporting.js */,
+				1CD8C7461E2EB137006AFE72 /* offline-exporting.src.js */,
+				1CD8C7471E2EB137006AFE72 /* overlapping-datalabels.js */,
+				1CD8C7481E2EB137006AFE72 /* overlapping-datalabels.src.js */,
+				1CD8C7491E2EB137006AFE72 /* series-label.js */,
+				1CD8C74A1E2EB137006AFE72 /* series-label.src.js */,
+				1CD8C74B1E2EB137006AFE72 /* solid-gauge.js */,
+				1CD8C74C1E2EB137006AFE72 /* solid-gauge.src.js */,
+				1CD8C74D1E2EB137006AFE72 /* stock.js */,
+				1CD8C74E1E2EB137006AFE72 /* stock.src.js */,
+				1CD8C74F1E2EB137006AFE72 /* treemap.js */,
+				1CD8C7501E2EB137006AFE72 /* treemap.src.js */,
+				1CD8C7511E2EB137006AFE72 /* xrange-series.js */,
+				1CD8C7521E2EB137006AFE72 /* xrange-series.src.js */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		1CD8C7531E2EB137006AFE72 /* themes */ = {
+			isa = PBXGroup;
+			children = (
+				1CD8C7541E2EB137006AFE72 /* dark-blue.js */,
+				1CD8C7551E2EB137006AFE72 /* dark-green.js */,
+				1CD8C7561E2EB137006AFE72 /* dark-unica.js */,
+				1CD8C7571E2EB137006AFE72 /* gray.js */,
+				1CD8C7581E2EB137006AFE72 /* grid-light.js */,
+				1CD8C7591E2EB137006AFE72 /* grid.js */,
+				1CD8C75A1E2EB137006AFE72 /* sand-signika.js */,
+				1CD8C75B1E2EB137006AFE72 /* skies.js */,
+			);
+			path = themes;
+			sourceTree = "<group>";
+		};
+		1CD8C75C1E2EB137006AFE72 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				1CD8C75D1E2EB137006AFE72 /* canvg.js */,
+				1CD8C75E1E2EB137006AFE72 /* canvg.src.js */,
+				1CD8C75F1E2EB137006AFE72 /* jspdf.js */,
+				1CD8C7601E2EB137006AFE72 /* jspdf.src.js */,
+				1CD8C7611E2EB137006AFE72 /* svg2pdf.js */,
+				1CD8C7621E2EB137006AFE72 /* svg2pdf.src.js */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		1CD8C7631E2EB137006AFE72 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				1CD8C7641E2EB137006AFE72 /* accessibility.js */,
+				1CD8C7651E2EB137006AFE72 /* accessibility.src.js */,
+				1CD8C7661E2EB137006AFE72 /* annotations.js */,
+				1CD8C7671E2EB137006AFE72 /* annotations.src.js */,
+				1CD8C7681E2EB137006AFE72 /* boost.js */,
+				1CD8C7691E2EB137006AFE72 /* boost.src.js */,
+				1CD8C76A1E2EB137006AFE72 /* broken-axis.js */,
+				1CD8C76B1E2EB137006AFE72 /* broken-axis.src.js */,
+				1CD8C76C1E2EB137006AFE72 /* data.js */,
+				1CD8C76D1E2EB137006AFE72 /* data.src.js */,
+				1CD8C76E1E2EB137006AFE72 /* drilldown.js */,
+				1CD8C76F1E2EB137006AFE72 /* drilldown.src.js */,
+				1CD8C7701E2EB137006AFE72 /* exporting.js */,
+				1CD8C7711E2EB137006AFE72 /* exporting.src.js */,
+				1CD8C7721E2EB137006AFE72 /* funnel.js */,
+				1CD8C7731E2EB137006AFE72 /* funnel.src.js */,
+				1CD8C7741E2EB137006AFE72 /* gantt.js */,
+				1CD8C7751E2EB137006AFE72 /* gantt.src.js */,
+				1CD8C7761E2EB137006AFE72 /* grid-axis.js */,
+				1CD8C7771E2EB137006AFE72 /* grid-axis.src.js */,
+				1CD8C7781E2EB137006AFE72 /* heatmap.js */,
+				1CD8C7791E2EB137006AFE72 /* heatmap.src.js */,
+				1CD8C77A1E2EB137006AFE72 /* no-data-to-display.js */,
+				1CD8C77B1E2EB137006AFE72 /* no-data-to-display.src.js */,
+				1CD8C77C1E2EB137006AFE72 /* offline-exporting.js */,
+				1CD8C77D1E2EB137006AFE72 /* offline-exporting.src.js */,
+				1CD8C77E1E2EB137006AFE72 /* overlapping-datalabels.js */,
+				1CD8C77F1E2EB137006AFE72 /* overlapping-datalabels.src.js */,
+				1CD8C7801E2EB137006AFE72 /* series-label.js */,
+				1CD8C7811E2EB137006AFE72 /* series-label.src.js */,
+				1CD8C7821E2EB137006AFE72 /* solid-gauge.js */,
+				1CD8C7831E2EB137006AFE72 /* solid-gauge.src.js */,
+				1CD8C7841E2EB137006AFE72 /* stock.js */,
+				1CD8C7851E2EB137006AFE72 /* stock.src.js */,
+				1CD8C7861E2EB137006AFE72 /* treemap.js */,
+				1CD8C7871E2EB137006AFE72 /* treemap.src.js */,
+				1CD8C7881E2EB137006AFE72 /* xrange-series.js */,
+				1CD8C7891E2EB137006AFE72 /* xrange-series.src.js */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		1CD8C78B1E2EB137006AFE72 /* themes */ = {
+			isa = PBXGroup;
+			children = (
+				1CD8C78C1E2EB137006AFE72 /* dark-blue.js */,
+				1CD8C78D1E2EB137006AFE72 /* dark-green.js */,
+				1CD8C78E1E2EB137006AFE72 /* dark-unica.js */,
+				1CD8C78F1E2EB137006AFE72 /* gray.js */,
+				1CD8C7901E2EB137006AFE72 /* grid-light.js */,
+				1CD8C7911E2EB137006AFE72 /* grid.js */,
+				1CD8C7921E2EB137006AFE72 /* sand-signika.js */,
+				1CD8C7931E2EB137006AFE72 /* skies.js */,
+			);
+			path = themes;
+			sourceTree = "<group>";
+		};
+		1CD8C8061E2EB287006AFE72 /* supporting */ = {
+			isa = PBXGroup;
+			children = (
+				1CD8C7031E2EAE8D006AFE72 /* Assets.xcassets */,
+				1CD8C7081E2EAE8D006AFE72 /* Info.plist */,
+				1CD8C80D1E2EC0C1006AFE72 /* index.html */,
+				1CD8C8111E2ECDD1006AFE72 /* Base.lproj */,
+				1CD8C81A1E33FE9A006AFE72 /* sample */,
+			);
+			name = supporting;
+			sourceTree = "<group>";
+		};
+		1CD8C8071E2EB291006AFE72 /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				1CD8C6FE1E2EAE8D006AFE72 /* ChartViewController.swift */,
+			);
+			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		1CD8C8081E2EB36C006AFE72 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				1CD8C80B1E2EB3C4006AFE72 /* ChartRenderer.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		1CD8C8111E2ECDD1006AFE72 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				1CD8C8121E2ECDD1006AFE72 /* LaunchScreen.storyboard */,
+				1CD8C8141E2ECDD1006AFE72 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		1CD8C81A1E33FE9A006AFE72 /* sample */ = {
+			isa = PBXGroup;
+			children = (
+				1CD8C8231E36D9EB006AFE72 /* ChartSampleData.swift */,
+			);
+			path = sample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CD8C6F81E2EAE8D006AFE72 /* ChartExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CD8C7161E2EAE8E006AFE72 /* Build configuration list for PBXNativeTarget "ChartExample" */;
+			buildPhases = (
+				1CD8C6F51E2EAE8D006AFE72 /* Sources */,
+				1CD8C6F61E2EAE8D006AFE72 /* Frameworks */,
+				1CD8C6F71E2EAE8D006AFE72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChartExample;
+			productName = ChartExample;
+			productReference = 1CD8C6F91E2EAE8D006AFE72 /* ChartExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CD8C70C1E2EAE8E006AFE72 /* ChartExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CD8C7191E2EAE8E006AFE72 /* Build configuration list for PBXNativeTarget "ChartExampleTests" */;
+			buildPhases = (
+				1CD8C7091E2EAE8E006AFE72 /* Sources */,
+				1CD8C70A1E2EAE8E006AFE72 /* Frameworks */,
+				1CD8C70B1E2EAE8E006AFE72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CD8C70F1E2EAE8E006AFE72 /* PBXTargetDependency */,
+			);
+			name = ChartExampleTests;
+			productName = ChartExampleTests;
+			productReference = 1CD8C70D1E2EAE8E006AFE72 /* ChartExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CD8C6F11E2EAE8D006AFE72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Lunaria Software LLC";
+				TargetAttributes = {
+					1CD8C6F81E2EAE8D006AFE72 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = T97TEF42TA;
+						ProvisioningStyle = Automatic;
+					};
+					1CD8C70C1E2EAE8E006AFE72 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = T97TEF42TA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1CD8C6F81E2EAE8D006AFE72;
+					};
+				};
+			};
+			buildConfigurationList = 1CD8C6F41E2EAE8D006AFE72 /* Build configuration list for PBXProject "ChartExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CD8C6F01E2EAE8D006AFE72;
+			productRefGroup = 1CD8C6FA1E2EAE8D006AFE72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CD8C6F81E2EAE8D006AFE72 /* ChartExample */,
+				1CD8C70C1E2EAE8E006AFE72 /* ChartExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CD8C6F71E2EAE8D006AFE72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CD8C7FC1E2EB137006AFE72 /* dark-green.js in Resources */,
+				1CD8C7EB1E2EB137006AFE72 /* no-data-to-display.src.js in Resources */,
+				1CD8C7E91E2EB137006AFE72 /* heatmap.src.js in Resources */,
+				1CD8C80E1E2EC0C1006AFE72 /* index.html in Resources */,
+				1CD8C7D91E2EB137006AFE72 /* boost.src.js in Resources */,
+				1CD8C7B71E2EB137006AFE72 /* no-data-to-display.src.js in Resources */,
+				1CD8C7CF1E2EB137006AFE72 /* canvg.src.js in Resources */,
+				1CD8C7FF1E2EB137006AFE72 /* grid-light.js in Resources */,
+				1CD8C7D81E2EB137006AFE72 /* boost.js in Resources */,
+				1CD8C8001E2EB137006AFE72 /* grid.js in Resources */,
+				1CD8C7C21E2EB137006AFE72 /* treemap.js in Resources */,
+				1CD8C7E81E2EB137006AFE72 /* heatmap.js in Resources */,
+				1CD8C79F1E2EB137006AFE72 /* highcharts.src.js in Resources */,
+				1CD8C7BE1E2EB137006AFE72 /* solid-gauge.js in Resources */,
+				1CD8C7E01E2EB137006AFE72 /* exporting.js in Resources */,
+				1CD8C7BC1E2EB137006AFE72 /* series-label.js in Resources */,
+				1CD8C7FB1E2EB137006AFE72 /* dark-blue.js in Resources */,
+				1CD8C7B31E2EB137006AFE72 /* grid-axis.src.js in Resources */,
+				1CD8C7951E2EB137006AFE72 /* highcharts-3d.src.js in Resources */,
+				1CD8C7C81E2EB137006AFE72 /* dark-unica.js in Resources */,
+				1CD8C7B61E2EB137006AFE72 /* no-data-to-display.js in Resources */,
+				1CD8C7EA1E2EB137006AFE72 /* no-data-to-display.js in Resources */,
+				1CD8C7C91E2EB137006AFE72 /* gray.js in Resources */,
+				1CD8C7E11E2EB137006AFE72 /* exporting.src.js in Resources */,
+				1CD8C7DB1E2EB137006AFE72 /* broken-axis.src.js in Resources */,
+				1CD8C7FD1E2EB137006AFE72 /* dark-unica.js in Resources */,
+				1CD8C7F51E2EB137006AFE72 /* stock.src.js in Resources */,
+				1CD8C7BB1E2EB137006AFE72 /* overlapping-datalabels.src.js in Resources */,
+				1CD8C7CC1E2EB137006AFE72 /* sand-signika.js in Resources */,
+				1CD8C7D11E2EB137006AFE72 /* jspdf.src.js in Resources */,
+				1CD8C79E1E2EB137006AFE72 /* highcharts.js in Resources */,
+				1CD8C7BF1E2EB137006AFE72 /* solid-gauge.src.js in Resources */,
+				1CD8C7FE1E2EB137006AFE72 /* gray.js in Resources */,
+				1CD8C8171E2ECDD1006AFE72 /* Main.storyboard in Resources */,
+				1CD8C7E61E2EB137006AFE72 /* grid-axis.js in Resources */,
+				1CD8C7CA1E2EB137006AFE72 /* grid-light.js in Resources */,
+				1CD8C7F41E2EB137006AFE72 /* stock.js in Resources */,
+				1CD8C7DF1E2EB137006AFE72 /* drilldown.src.js in Resources */,
+				1CD8C7A01E2EB137006AFE72 /* accessibility.js in Resources */,
+				1CD8C7A31E2EB137006AFE72 /* annotations.src.js in Resources */,
+				1CD8C7D51E2EB137006AFE72 /* accessibility.src.js in Resources */,
+				1CD8C7DA1E2EB137006AFE72 /* broken-axis.js in Resources */,
+				1CD8C7971E2EB137006AFE72 /* highcharts-more.src.js in Resources */,
+				1CD8C7AA1E2EB137006AFE72 /* drilldown.js in Resources */,
+				1CD8C7B21E2EB137006AFE72 /* grid-axis.js in Resources */,
+				1CD8C7E21E2EB137006AFE72 /* funnel.js in Resources */,
+				1CD8C7B41E2EB137006AFE72 /* heatmap.js in Resources */,
+				1CD8C7CD1E2EB137006AFE72 /* skies.js in Resources */,
+				1CD8C7A51E2EB137006AFE72 /* boost.src.js in Resources */,
+				1CD8C7EC1E2EB137006AFE72 /* offline-exporting.js in Resources */,
+				1CD8C7F21E2EB137006AFE72 /* solid-gauge.js in Resources */,
+				1CD8C7D31E2EB137006AFE72 /* svg2pdf.src.js in Resources */,
+				1CD8C7A41E2EB137006AFE72 /* boost.js in Resources */,
+				1CD8C7B11E2EB137006AFE72 /* gantt.src.js in Resources */,
+				1CD8C8011E2EB137006AFE72 /* sand-signika.js in Resources */,
+				1CD8C7A71E2EB137006AFE72 /* broken-axis.src.js in Resources */,
+				1CD8C7DD1E2EB137006AFE72 /* data.src.js in Resources */,
+				1CD8C7B91E2EB137006AFE72 /* offline-exporting.src.js in Resources */,
+				1CD8C7CB1E2EB137006AFE72 /* grid.js in Resources */,
+				1CD8C7ED1E2EB137006AFE72 /* offline-exporting.src.js in Resources */,
+				1CD8C7CE1E2EB137006AFE72 /* canvg.js in Resources */,
+				1CD8C7A61E2EB137006AFE72 /* broken-axis.js in Resources */,
+				1CD8C7E51E2EB137006AFE72 /* gantt.src.js in Resources */,
+				1CD8C7A21E2EB137006AFE72 /* annotations.js in Resources */,
+				1CD8C80C1E2EB3C4006AFE72 /* ChartRenderer.js in Resources */,
+				1CD8C7C01E2EB137006AFE72 /* stock.js in Resources */,
+				1CD8C79A1E2EB137006AFE72 /* highcharts-3d.js in Resources */,
+				1CD8C7A81E2EB137006AFE72 /* data.js in Resources */,
+				1CD8C7941E2EB137006AFE72 /* highcharts-3d.js in Resources */,
+				1CD8C7C41E2EB137006AFE72 /* xrange-series.js in Resources */,
+				1CD8C7D41E2EB137006AFE72 /* accessibility.js in Resources */,
+				1CD8C7AD1E2EB137006AFE72 /* exporting.src.js in Resources */,
+				1CD8C7B01E2EB137006AFE72 /* gantt.js in Resources */,
+				1CD8C7C11E2EB137006AFE72 /* stock.src.js in Resources */,
+				1CD8C7F61E2EB137006AFE72 /* treemap.js in Resources */,
+				1CD8C8041E2EB156006AFE72 /* jquery-1.11.3.min.js in Resources */,
+				1CD8C7C51E2EB137006AFE72 /* xrange-series.src.js in Resources */,
+				1CD8C7D01E2EB137006AFE72 /* jspdf.js in Resources */,
+				1CD8C7E71E2EB137006AFE72 /* grid-axis.src.js in Resources */,
+				1CD8C8021E2EB137006AFE72 /* skies.js in Resources */,
+				1CD8C7C61E2EB137006AFE72 /* dark-blue.js in Resources */,
+				1CD8C7041E2EAE8D006AFE72 /* Assets.xcassets in Resources */,
+				1CD8C7D61E2EB137006AFE72 /* annotations.js in Resources */,
+				1CD8C7C31E2EB137006AFE72 /* treemap.src.js in Resources */,
+				1CD8C7C71E2EB137006AFE72 /* dark-green.js in Resources */,
+				1CD8C79D1E2EB137006AFE72 /* highcharts-more.src.js in Resources */,
+				1CD8C7DE1E2EB137006AFE72 /* drilldown.js in Resources */,
+				1CD8C7A91E2EB137006AFE72 /* data.src.js in Resources */,
+				1CD8C79B1E2EB137006AFE72 /* highcharts-3d.src.js in Resources */,
+				1CD8C7B51E2EB137006AFE72 /* heatmap.src.js in Resources */,
+				1CD8C7EE1E2EB137006AFE72 /* overlapping-datalabels.js in Resources */,
+				1CD8C7F81E2EB137006AFE72 /* xrange-series.js in Resources */,
+				1CD8C7F11E2EB137006AFE72 /* series-label.src.js in Resources */,
+				1CD8C7F31E2EB137006AFE72 /* solid-gauge.src.js in Resources */,
+				1CD8C7981E2EB137006AFE72 /* highcharts.js in Resources */,
+				1CD8C7EF1E2EB137006AFE72 /* overlapping-datalabels.src.js in Resources */,
+				1CD8C7A11E2EB137006AFE72 /* accessibility.src.js in Resources */,
+				1CD8C7991E2EB137006AFE72 /* highcharts.src.js in Resources */,
+				1CD8C7D21E2EB137006AFE72 /* svg2pdf.js in Resources */,
+				1CD8C7E31E2EB137006AFE72 /* funnel.src.js in Resources */,
+				1CD8C7F01E2EB137006AFE72 /* series-label.js in Resources */,
+				1CD8C7FA1E2EB137006AFE72 /* readme.txt in Resources */,
+				1CD8C7AC1E2EB137006AFE72 /* exporting.js in Resources */,
+				1CD8C7AB1E2EB137006AFE72 /* drilldown.src.js in Resources */,
+				1CD8C7D71E2EB137006AFE72 /* annotations.src.js in Resources */,
+				1CD8C7F91E2EB137006AFE72 /* xrange-series.src.js in Resources */,
+				1CD8C8161E2ECDD1006AFE72 /* LaunchScreen.storyboard in Resources */,
+				1CD8C7AF1E2EB137006AFE72 /* funnel.src.js in Resources */,
+				1CD8C7AE1E2EB137006AFE72 /* funnel.js in Resources */,
+				1CD8C7961E2EB137006AFE72 /* highcharts-more.js in Resources */,
+				1CD8C7E41E2EB137006AFE72 /* gantt.js in Resources */,
+				1CD8C7BD1E2EB137006AFE72 /* series-label.src.js in Resources */,
+				1CD8C79C1E2EB137006AFE72 /* highcharts-more.js in Resources */,
+				1CD8C7DC1E2EB137006AFE72 /* data.js in Resources */,
+				1CD8C7B81E2EB137006AFE72 /* offline-exporting.js in Resources */,
+				1CD8C7BA1E2EB137006AFE72 /* overlapping-datalabels.js in Resources */,
+				1CD8C7F71E2EB137006AFE72 /* treemap.src.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CD8C70B1E2EAE8E006AFE72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CD8C6F51E2EAE8D006AFE72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CD8C6FF1E2EAE8D006AFE72 /* ChartViewController.swift in Sources */,
+				1CD8C6FD1E2EAE8D006AFE72 /* AppDelegate.swift in Sources */,
+				1CD8C8241E36D9EB006AFE72 /* ChartSampleData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CD8C7091E2EAE8E006AFE72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CD8C7121E2EAE8E006AFE72 /* ChartExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CD8C70F1E2EAE8E006AFE72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CD8C6F81E2EAE8D006AFE72 /* ChartExample */;
+			targetProxy = 1CD8C70E1E2EAE8E006AFE72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CD8C8121E2ECDD1006AFE72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CD8C8131E2ECDD1006AFE72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1CD8C8141E2ECDD1006AFE72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CD8C8151E2ECDD1006AFE72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CD8C7141E2EAE8E006AFE72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1CD8C7151E2EAE8E006AFE72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CD8C7171E2EAE8E006AFE72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T97TEF42TA;
+				INFOPLIST_FILE = ChartExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunariasoftware.ChartExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1CD8C7181E2EAE8E006AFE72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T97TEF42TA;
+				INFOPLIST_FILE = ChartExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunariasoftware.ChartExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1CD8C71A1E2EAE8E006AFE72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T97TEF42TA;
+				INFOPLIST_FILE = ChartExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunariasoftware.ChartExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChartExample.app/ChartExample";
+			};
+			name = Debug;
+		};
+		1CD8C71B1E2EAE8E006AFE72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T97TEF42TA;
+				INFOPLIST_FILE = ChartExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunariasoftware.ChartExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChartExample.app/ChartExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CD8C6F41E2EAE8D006AFE72 /* Build configuration list for PBXProject "ChartExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CD8C7141E2EAE8E006AFE72 /* Debug */,
+				1CD8C7151E2EAE8E006AFE72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CD8C7161E2EAE8E006AFE72 /* Build configuration list for PBXNativeTarget "ChartExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CD8C7171E2EAE8E006AFE72 /* Debug */,
+				1CD8C7181E2EAE8E006AFE72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CD8C7191E2EAE8E006AFE72 /* Build configuration list for PBXNativeTarget "ChartExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CD8C71A1E2EAE8E006AFE72 /* Debug */,
+				1CD8C71B1E2EAE8E006AFE72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CD8C6F11E2EAE8D006AFE72 /* Project object */;
+}
