@@ -4,6 +4,8 @@ Demonstration of using Highcharts for graph rendering in native iOS app. The app
 - About Highcharts : http://www.highcharts.com . 
 - The highcharts API : http://api.highcharts.com/highcharts
 
+![](http://www.priyaontech.com/wp-content/uploads/2017/01/highchartdemo.gif)
+
 # Details
 The sample app demonstrates the following :-
 - Ability to dynamically load chart data / chart options
