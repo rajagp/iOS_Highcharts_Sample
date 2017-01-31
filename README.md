@@ -22,7 +22,7 @@ The native iOS layer sends the chart data / options to the JS charting layer usi
 The native iOS layer listens to drillup/drill down events from the chart using the ```WKScriptMessageHandler``` interface and can redraw the chart with appropriate chart data. 
  - Details of WKScriptMessageHandler at https://developer.apple.com/reference/webkit/wkscriptmessagehandler
 
-
+Refer to http://www.priyaontech.com/2017/01/highcharts-support-in-a-native-ios-app/ for a simple example that demonstrates loading of Highcharts chart with static chart data.
 
 
 #License
